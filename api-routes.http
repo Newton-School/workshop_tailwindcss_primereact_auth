@@ -1,5 +1,5 @@
-@domain=http://localhost:3000
-@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjM0ODEwOTYxOTUzNjA0MGY4MWQwYmMiLCJ1c2VybmFtZSI6ImtydXNobiIsImlhdCI6MTcxNDcxNjk0MX0.7oVRZME8AgZOLIsiX8stoHDNTXEYMjXZ17rl6bzXNK4
+@domain=https://react-do-server-production.up.railway.app
+@token=<<Insert token here>>
 ###
 POST {{domain}}/auth/sign-up HTTP/1.1
 Content-Type: application/json
